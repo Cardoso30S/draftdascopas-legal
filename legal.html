@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draft das Copas — Central Legal</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: linear-gradient(180deg, #0B132B 0%, #14213D 100%);
+      color: #E8EDF5;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .wrap { max-width: 560px; width: 100%; text-align: center; }
+    h1 { font-size: 1.9rem; letter-spacing: 1px; margin-bottom: 6px; }
+    .sub { color: #8FA1B8; margin-bottom: 36px; font-size: .95rem; }
+    a.card {
+      display: block;
+      background: #16213A;
+      border: 1px solid #263557;
+      border-radius: 16px;
+      padding: 22px 24px;
+      margin-bottom: 16px;
+      text-decoration: none;
+      color: #E8EDF5;
+      transition: transform .15s, border-color .15s;
+      text-align: left;
+    }
+    a.card:hover { transform: translateY(-2px); border-color: #2EC4B6; }
+    a.card h2 { font-size: 1.15rem; color: #2EC4B6; margin-bottom: 4px; }
+    a.card p { color: #8FA1B8; font-size: .88rem; }
+    .foot { margin-top: 30px; font-size: .8rem; color: #5C6B82; }
+    .foot a { color: #8FA1B8; }
+    .logo { width: 180px; max-width: 60%; height: auto; margin-bottom: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <img class="logo" src="logo.png" alt="Draft das Copas">
+    <h1>DRAFT DAS COPAS</h1>
+    <p class="sub">Documentos legais do jogo</p>
+
+    <a class="card" href="privacidade.html">
+      <h2>Política de Privacidade</h2>
+      <p>Quais dados o jogo usa, onde ficam guardados e os seus direitos.</p>
+    </a>
+
+    <a class="card" href="termos.html">
+      <h2>Termos de Uso</h2>
+      <p>As regras para usar o Draft das Copas.</p>
+    </a>
+
+    <p class="foot"><a href="/">← Voltar ao jogo</a></p>
+  </div>
+</body>
+</html>
